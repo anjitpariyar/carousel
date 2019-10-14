@@ -63,7 +63,7 @@
       transition: transform .5s ease, -webkit-transform .5s ease; }
     .carousel-container .carousel-slide img {
       width: 100%;
-      height: 100%;
+      height: 600px;
       -o-object-fit: cover;
          object-fit: cover; }
     .carousel-container .carousel-slide .img-box {
