@@ -5,28 +5,49 @@
 .nav {
   position: absolute;
   top: 50%;
-  width: 100%; }
+  width: 100%;
+  font-size: .8rem;
+  text-transform: capitalize; }
   .nav #prev {
     left: 3%;
     position: absolute;
-    background-color: #44ee00;
+    background-color: #446699;
     color: #fff;
-    padding: 1em; }
+    padding: 1em;
+    border: 0;
+    border-radius: 5px;
+    text-transform: capitalize;
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in; }
+    .nav #prev:hover {
+      color: #446699;
+      background-color: #fff;
+      border: 2px solid #446699; }
   .nav #next {
     right: 3%;
     position: absolute;
-    background-color: #44ee00;
+    background-color: #446699;
     color: #fff;
-    padding: 1em; }
+    padding: 1em;
+    border: 0;
+    border-radius: 5px;
+    text-transform: capitalize;
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in; }
+    .nav #next:hover {
+      color: #446699;
+      background-color: #fff;
+      border: 2px solid #446699; }
 
 .carousel-container {
+  margin-top: 1rem;
   width: 100%;
   overflow: hidden; }
   .carousel-container .carousel-slide {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 600px;
+    height: 95vh;
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
